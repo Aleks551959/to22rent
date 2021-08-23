@@ -279,12 +279,34 @@
             background-size: cover;
         }
         
-        .reservation {}
-        
-        .reservation__img {
-            background-image: url(../images/reservation-bd.jpg);
+        .reservation {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            min-height: 100vh;
+            text-align: right;
         }
         
-        .reservation__title {}
+        .reservation__title {
+            max-width: 462px;
+            margin: 0 0 15px auto;
+            padding-top: 68px;
+            margin-bottom: 16px;
+            font-family: 'PT Serif', serif;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 48px;
+            color: #fff;
+        }
         
-        .reservation__btn {}
+        .reservation__btn {
+            color: #fff;
+            background-color: #000;
+            padding: 18px 18px;
+            display: inline-block;
+            transition: all .5s;
+        }
+        
+        .reservation__btn:hover {
+            background-color: rgb(65, 59, 59);
+        }
